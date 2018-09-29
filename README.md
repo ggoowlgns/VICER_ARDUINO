@@ -60,9 +60,9 @@ char server_name[] = "52.79.181.10";
 4. 컨트롤러를 이용하여 차량을 제어 한다.
 
 ### 참고 문헌
-1.Use to Arudino Wi-fi Shield 
-https://www.arduino.cc/en/Guide/ArduinoWiFiShield
-2. Use to Arduino Bluetooth Module
+1.Use to Arudino Wi-fi Shield </br>
+https://www.arduino.cc/en/Guide/ArduinoWiFiShield  </br>
+2. Use to Arduino Bluetooth Module </br>
 https://www.arduino.cc/en/Main/ArduinoBoardBT?from=Main.ArduinoBoardBluetooth
 
 ## 라이센스
