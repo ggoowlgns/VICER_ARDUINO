@@ -18,7 +18,7 @@ Arduino 자체의 통신 기능이 없기 때문에 RC카에는 와이파이 shi
   * 아두이노 보드에 코드를 업로드 하기 위해 위의 링크에서 에디터를 다운받습니다.      
 
 #### 컨트롤러 
-<img src="./Img_ino/컨트롤러 회로도.jpg">
+<img src="./img_ino/컨트롤러 회로도.jpg">
 
 ```
 아두이노에 연결시킬 포트번호
@@ -30,7 +30,7 @@ int accel = analogRead(A2);
 
 본 디바이스의 아두이노를 위의 회로도대로 연결 시킨 뒤 깃에 함께 commit된 코드를 업로드한다.
 * 완성된 컨트롤러의 모습
-<img src="./Img_ino/핸들.jpg">
+<img src="./img_ino/핸들.jpg">
 </br>
 #### RC 카
 
@@ -42,13 +42,13 @@ char server_name[] = "52.79.181.10";
 #define PWMA  5
 ```
 
-<img src="./Img_ino/RC카 회로도.jpg">
+<img src="./img_ino/RC카 회로도.jpg">
 * 아두이노 보드와 추가 모듈들(모터제어 모듈, 와이파이 쉴드 모듈)을 수직으로 붙여 RC카에 연결한다. </br>
 * 배터리와 360도 카메라도 RC카 위에 함께 장착한다.
 </br>
 
 * 완성된 RC카의 모습
-<img src="./Img_ino/RC카.jpg">
+<img src="./img_ino/RC카.jpg">
 </br>
 
 ### 실행 방법
