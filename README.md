@@ -51,19 +51,19 @@ char server_name[] = "52.79.181.10";
 <img src="./Img_ino/RC카.jpg">
 </br>
 
-### 실행 예제
+### 실행 방법
 * 본 프로젝트에 함께 깃에 업로드된 TCP/IP control 소켓서버가 구동되고 있어야 한다.
 * 본 프로젝트에 함께 깃에 업로드된 Client용 Application을 사용할 핸드폰에 빌드시켜놓은 상태이어야 한다.
 1. RC카의 전원선을 연결한다.
 2. 서버에 RC카의 소켓이 스레드로 연결된것을 확인 한다.
 3. Application과 컨트롤러가 Bluetooth연결 시켜준다. 
-4. 
+4. 컨트롤러를 이용하여 차량을 제어 한다.
 
-
-
-1. 소개
-2. 설치 및 환경 잡는법
-3. 실행방법
-4. 실행 결괴
-실드 코드
+### 참고 문헌
+1.Use to Arudino Wi-fi Shield 
 https://www.arduino.cc/en/Guide/ArduinoWiFiShield
+2. Use to Arduino Bluetooth Module
+https://www.arduino.cc/en/Main/ArduinoBoardBT?from=Main.ArduinoBoardBluetooth
+
+## 라이센스
+* 아두이노 : https://www.arduino.cc/en/Main/ContributorLicenseAgreement
