@@ -19,13 +19,15 @@ Arduino 자체의 통신 기능이 없기 때문에 RC카에는 와이파이 shi
 
 #### 컨트롤러 
 <img src="./Img_ino/컨트롤러 회로도.jpg">
+
 ```
 아두이노에 연결시킬 포트번호
-SoftwareSerial BTSerial(2, 3); // 2 : TX, 3 : RX
+SoftwareSerial BTSerial(2, 3);  2 : TX, 3 : RX
 int gear = analogRead(A0);
 int steer = analogRead(A1);
 int accel = analogRead(A2);
 ```
+
 본 디바이스의 아두이노를 위의 회로도대로 연결 시킨 뒤 깃에 함께 commit된 코드를 업로드한다.
 * 완성된 컨트롤러의 모습
 <img src="./Img_ino/핸들.jpg">
