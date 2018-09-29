@@ -19,7 +19,6 @@ Arduino 자체의 통신 기능이 없기 때문에 RC카에는 와이파이 shi
 
 #### 컨트롤러 
 <img src="./Img_ino/컨트롤러 회로도.jpg">
-
 ```
 아두이노에 연결시킬 포트번호
 SoftwareSerial BTSerial(2, 3); // 2 : TX, 3 : RX
@@ -32,15 +31,31 @@ int accel = analogRead(A2);
 <img src="./Img_ino/핸들.jpg">
 </br>
 #### RC 카
+
+```
+-제어를위한 TCP/IP 소켓서버의 주소입니다. 만약 다른 서버를 구동시킨다면 이부분을 바꿔주면 된다.
+char server_name[] = "52.79.181.10"; 
+-아두이노 우노 보드에 직접 꽂는것이 아니라 함께 부착된 Wi-fi Shield와 모터 보드, 센서 쉴드위에 꽂아준다.
+#define DIRA  4
+#define PWMA  5
+```
+
 <img src="./Img_ino/RC카 회로도.jpg">
 * 아두이노 보드와 추가 모듈들(모터제어 모듈, 와이파이 쉴드 모듈)을 수직으로 붙여 RC카에 연결한다. </br>
 * 배터리와 360도 카메라도 RC카 위에 함께 장착한다.
+</br>
 
 * 완성된 RC카의 모습
 <img src="./Img_ino/RC카.jpg">
 </br>
 
-
+### 실행 예제
+* 본 프로젝트에 함께 깃에 업로드된 TCP/IP control 소켓서버가 구동되고 있어야 한다.
+* 본 프로젝트에 함께 깃에 업로드된 Client용 Application을 사용할 핸드폰에 빌드시켜놓은 상태이어야 한다.
+1. RC카의 전원선을 연결한다.
+2. 서버에 RC카의 소켓이 스레드로 연결된것을 확인 한다.
+3. Application과 컨트롤러가 Bluetooth연결 시켜준다. 
+4. 
 
 
 
