@@ -68,3 +68,4 @@ https://www.arduino.cc/en/Main/ArduinoBoardBT?from=Main.ArduinoBoardBluetooth
 
 ## 라이센스
 * 아두이노 : https://www.arduino.cc/en/Main/ContributorLicenseAgreement
+            https://www.arduino.cc/en/Main/CopyrightNotice
